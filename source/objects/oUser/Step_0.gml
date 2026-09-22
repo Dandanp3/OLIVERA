@@ -35,7 +35,26 @@ switch (state) {
 		hspd = _move_x * move_speed;
 		vspd = _move_y * move_speed;
 		
+		// COLISAO HORIZONTAL
+		if (place_meeting(x + hspd, y, oWall)) {
+			// enquanto o proximo pixel estiver livre, mova-se 1 pixel
+			while(!place_meeting(x +sign(hspd), y, oWall)) {
+				x += sign(hspd);
+			}
+			// tocando na parede zera velocidade
+			hspd = 0;
+		}
 		x += hspd;
+		
+		// COLISÃO VERTICAL
+		if (place_meeting(x, y + vspd, oWall)) {
+			// enquanto o proximo pixel estiver livre, mova-se 1 pixel
+			while (!place_meeting(x, y + sign(vspd), oWall)) {
+				y += sign(vspd)
+			}
+			// tocando na parede zera velocidade
+			vspd = 0;
+		}
 		y += vspd;
         
 		//se soltar todas as teclas, volta par IDLE

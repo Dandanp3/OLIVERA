@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Utils","folderPath":"folders/Sprites/Utils.yy","name":"Utils","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"User","folderPath":"folders/Sprites/User.yy","name":"User","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Female","folderPath":"folders/Sprites/User/Female.yy","name":"Female","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Male","folderPath":"folders/Sprites/User/Male.yy","name":"Male","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -26,12 +27,14 @@
   "name":"OLIVERA",
   "resources":[
     {"id":{"name":"oUser","path":"objects/oUser/oUser.yy",},},
+    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sDownM","path":"sprites/sDownM/sDownM.yy",},},
     {"id":{"name":"sIdleM","path":"sprites/sIdleM/sIdleM.yy",},},
     {"id":{"name":"sSideM","path":"sprites/sSideM/sSideM.yy",},},
     {"id":{"name":"sUpM","path":"sprites/sUpM/sUpM.yy",},},
     {"id":{"name":"sUserBase","path":"sprites/sUserBase/sUserBase.yy",},},
+    {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
