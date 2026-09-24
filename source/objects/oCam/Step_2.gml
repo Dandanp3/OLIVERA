@@ -1,7 +1,7 @@
 // so executa se o jogador existir na tela
 if (instance_exists(follow)) {
 	// define o alvo (centro do jogador/tela)
-	// subtraindo metade da largura/altura da câmera para alinhar o centro da tela com o X/Y do jogador
+	// subtraindo metade da largura/altura da câmera para alinhar o centro da tela com o X/Y 
 	var _x_to = follow.x - (cam_width / 2);
 	var _y_to = follow.y - (cam_height / 2)
 	

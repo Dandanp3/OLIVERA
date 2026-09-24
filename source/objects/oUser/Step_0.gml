@@ -13,6 +13,16 @@ if (_move_x != 0) {
     _move_y = 0;
 }
 
+// Trava o player se dex estiver aberta
+if (instance_exists(oDex)) {
+    if (oDex.is_open) {
+        state = STATE.LOCKED;
+    } else if (state == STATE.LOCKED) {
+        state = STATE.IDLE; // Libera o player quando fechar
+    }
+}
+
+
 // state machine
 switch (state) {
     // IDLE
@@ -80,6 +90,15 @@ switch (state) {
 			face = 1;
 		}
 		break;
+		
+	    case STATE.LOCKED:
+	        hspd = 0;
+	        vspd = 0;
+	        image_speed = 0; 
+        
+	        sprite_index = sIdleM;
+	        image_index = face;
+	        break;
 }
 
 
