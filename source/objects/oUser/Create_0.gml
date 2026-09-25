@@ -1,5 +1,6 @@
-// State machine
+global.lang = "pt";
 
+// State machine
 enum STATE {
 	IDLE,
 	WALK,

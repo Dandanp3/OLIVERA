@@ -29,6 +29,8 @@
   "resources":[
     {"id":{"name":"oCam","path":"objects/oCam/oCam.yy",},},
     {"id":{"name":"oDex","path":"objects/oDex/oDex.yy",},},
+    {"id":{"name":"oDialogueManager","path":"objects/oDialogueManager/oDialogueManager.yy",},},
+    {"id":{"name":"oNPCFather","path":"objects/oNPCFather/oNPCFather.yy",},},
     {"id":{"name":"oUser","path":"objects/oUser/oUser.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
