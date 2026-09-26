@@ -28,6 +28,7 @@
   "name":"OLIVERA",
   "resources":[
     {"id":{"name":"oCam","path":"objects/oCam/oCam.yy",},},
+    {"id":{"name":"oDaniel","path":"objects/oDaniel/oDaniel.yy",},},
     {"id":{"name":"oDex","path":"objects/oDex/oDex.yy",},},
     {"id":{"name":"oDialogueManager","path":"objects/oDialogueManager/oDialogueManager.yy",},},
     {"id":{"name":"oNPCFather","path":"objects/oNPCFather/oNPCFather.yy",},},
